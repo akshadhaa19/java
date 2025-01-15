@@ -1,6 +1,7 @@
 public class DocComments
  {
-    public static void main(){
+    public static void main()
+    {
 
     }
     public static void greet()
