@@ -25,7 +25,7 @@ public class ReturnValues {
       }
       public static void printArea(double length,double breadth,double area)
      {
-        System.out.println("a rectangle with length"+ length+ "and breadth"+ breadth + " has an area of "+ area);  
+        System.out.println("a rectangle with length "+ length+ "and breadth "+ breadth + " has an area of "+ area);  
         
      }
 }
