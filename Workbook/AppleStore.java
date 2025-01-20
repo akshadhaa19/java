@@ -4,10 +4,10 @@ public class AppleStore {
         int numOfCustomers = 0;
         double profit = 0;
 
-        // Instructions for this workbook are on Learn the Part (see the Udemy Video: Workbook 2.3 to access the link).
+        
 
         System.out.println("You picked 500 apples from an apple orchard");
-        
+        numOfApples
         System.out.println("Time for business! You're selling each apple for 40 cents");
 
         System.out.println("One customer walked in. He bought 4 apples!");
