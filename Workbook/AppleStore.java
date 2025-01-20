@@ -7,21 +7,30 @@ public class AppleStore {
         
 
         System.out.println("You picked 500 apples from an apple orchard");
-        numOfApples
+        numOfApples +=500;
+
         System.out.println("Time for business! You're selling each apple for 40 cents");
+        double price = 0.40;
 
         System.out.println("One customer walked in. He bought 4 apples!");
+        profit += 4*price;
+        numOfCustomers +=1;
+        numOfApples -=4;
 
         System.out.println("Another customer walked in. He bought 20 apples!");
+        numOfApples -=20;
+        numOfCustomers++;
+        profit+=20*price;
 
         System.out.println("Another customer walked in. She bought 200 apples!");
-        
+        numOfApples -=200;
+        numOfCustomers++;
+        profit +=200*price;
 
-        System.out.println("Wow! So far, you made: $<profit>");
-        System.out.println("<number of customers> + customers love your apples.");
-        System.out.println("You have <number of apples> apples left.");
-
-        // Compare your result to what's on Learn the Part.  
+        System.out.println("Wow! So far, you made: $"+profit);
+        System.out.println(numOfCustomers + " customers love your apples.");
+        System.out.println("You have " +numOfApples +" apples left.");
+  
         
     }
 

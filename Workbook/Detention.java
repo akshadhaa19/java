@@ -13,6 +13,6 @@ public class Detention {
             System.out.println(a +"." +line);
 
         }
-
+        scan.close();
     }
 }
