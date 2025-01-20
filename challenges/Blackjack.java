@@ -25,7 +25,7 @@ public class Blackjack {
         System.out.println("The dealer shows \n" + cardString(dealerCard1) + "\nand has a card facing down \n"+faceDown());
         int dealerTotal= Math.min(dealerCard1, 10) + Math.min(dealerCard2, 10);
         System.out.println("n the dealers total is hidden");
-
+ 
        
 
         while (true) 
