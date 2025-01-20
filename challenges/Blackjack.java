@@ -36,7 +36,7 @@ public class Blackjack {
             break;
           }
           int newCard= drawRandomCard();
-          total +=math.min(newCard,10);
+          total +=Math.min(newCard,10);
           System.out.println("\nyou get a \n" +cardString(newCard));
           System.out.println("your total is "+total);
 
