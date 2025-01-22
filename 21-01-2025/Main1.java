@@ -1,12 +1,7 @@
 public class Main1 {
     public static void main(String[] args) {
-        Car nissan = new Car("Nissan", 100000, 2020, "green");
-        Car dodge = new Car("Dodge",120000,0,null);
+        Car nissan = new Car("Nissan", 100000, 2020, "green", new String[] { "tires", "keys"});
 
-
-
-        System.out.println("This "+ nissan.getMake() +" is worth $ " + nissan.getPrice() + ". It was built in "+ nissan.getYear() + " .It is "+ nissan.getColor() + ".\n ");
-        System.out.println("This "+dodge.getMake() + " is worth $" + dodge.getPrice() +". It was built in "+ dodge.getYear() + ". It is "+ dodge.getColor() + ".\n");
-    }
-    
+        System.out.println(nissan);
+}
 }
